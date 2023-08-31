@@ -1,4 +1,4 @@
-package section8.exercicios.atividadefuncionario;
+package section8.aula1IntroducaoOO.exercicios.atividadefuncionario;
 
 public class Employee {
     private String name;

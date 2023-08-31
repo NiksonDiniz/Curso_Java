@@ -1,4 +1,4 @@
-package section8.exercicios.atividadefuncionario;
+package section8.aula1IntroducaoOO.exercicios.atividadefuncionario;
 
 
 import java.util.Locale;
@@ -18,7 +18,13 @@ public class Program {
 
         Employee employee = new Employee(name, salary, tax);
 
-        System.out.println("Employee: " + employee);
+        System.out.println("\nEmployee: " + employee);
+
+        System.out.print("\nWhich percentage to increase salary? ");
+        double percent = sc.nextDouble();
+        employee.increaseSalary(percent);
+
+        System.out.println("\nUpdate data: " + employee);
 
         sc.close();
     }

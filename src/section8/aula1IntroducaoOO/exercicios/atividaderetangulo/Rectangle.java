@@ -1,4 +1,4 @@
-package section8.exercicios.atividaderetangulo;
+package section8.aula1IntroducaoOO.exercicios.atividaderetangulo;
 
 public class Rectangle {
     private Double width;

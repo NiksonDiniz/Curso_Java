@@ -1,4 +1,4 @@
-package section8.exercicios.atividaderetangulo;
+package section8.aula1IntroducaoOO.exercicios.atividaderetangulo;
 
 import java.util.Locale;
 import java.util.Scanner;
