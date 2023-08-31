@@ -1,4 +1,4 @@
-package section8.aula1.atividade1.comOO;
+package section8.aula1IntroducaoOO.atividade1.semOO;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class Program {
         double x2 = sc.nextDouble();
         double x3 = sc.nextDouble();
 
-        double px = (x1 + x2 + x3) / 2;
+        double px = (x1 + x2 + x3) / 2.0;
         double areax = Math.sqrt(px * (px - x1) * (px - x2) * (px - x3));
 
         System.out.println("Enter the measures of triangle Y:");
@@ -21,7 +21,7 @@ public class Program {
         double y2 = sc.nextDouble();
         double y3 = sc.nextDouble();
 
-        double py = (y1 + y2 + y3) / 2;
+        double py = (y1 + y2 + y3) / 2.0;
         double areay = Math.sqrt(py * (py - y1) * (py - y2) * (py - y3));
 
         System.out.println("Triangle X area: " + String.format("%.4f", areax));
