@@ -1,6 +1,6 @@
-package section8.aula1IntroducaoOO.atividade1.comOO.application;
+package section8.aula1IntroducaoOO.atividade1explicativa.comOO.application;
 
-import section8.aula1IntroducaoOO.atividade1.comOO.entities.Triangle;
+import section8.aula1IntroducaoOO.atividade1explicativa.comOO.entities.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

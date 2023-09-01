@@ -1,4 +1,4 @@
-package section8.aula1IntroducaoOO.atividade1.comOO.entities;
+package section8.aula1IntroducaoOO.atividade1explicativa.comOO.entities;
 
 public class Triangle {
     public double a;

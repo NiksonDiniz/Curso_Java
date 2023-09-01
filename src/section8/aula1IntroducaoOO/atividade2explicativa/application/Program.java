@@ -1,6 +1,6 @@
-package section8.aula1IntroducaoOO.atividade2.application;
+package section8.aula1IntroducaoOO.atividade2explicativa.application;
 
-import section8.aula1IntroducaoOO.atividade2.entities.Product;
+import section8.aula1IntroducaoOO.atividade2explicativa.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

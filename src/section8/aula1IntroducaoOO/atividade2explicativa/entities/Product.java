@@ -1,4 +1,4 @@
-package section8.aula1IntroducaoOO.atividade2.entities;
+package section8.aula1IntroducaoOO.atividade2explicativa.entities;
 
 public class Product {
     private String name;

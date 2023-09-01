@@ -1,4 +1,4 @@
-package section8.aula1IntroducaoOO.atividade1.semOO;
+package section8.aula1IntroducaoOO.atividade1explicativa.semOO;
 
 import java.util.Locale;
 import java.util.Scanner;
