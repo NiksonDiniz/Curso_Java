@@ -8,7 +8,6 @@ import section13.aula04Atividadeproduct.enums.OrderStatus;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
@@ -19,7 +18,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter cliente data: ");
+        System.out.println("Enter client data: ");
         System.out.print("Name: ");
         String name = sc.nextLine();
         System.out.print("Email: ");
@@ -28,9 +27,10 @@ public class Program {
         Date birthDate = sdf.parse(sc.next());
 
         Client client = new Client(name, email, birthDate);
+
         System.out.println("Enter order data:");
         System.out.print("Status: ");
-        String status = sc.next();
+        String status = sc.next().toUpperCase();
 
         Order order = new Order(new Date(), OrderStatus.valueOf(status), client);
 

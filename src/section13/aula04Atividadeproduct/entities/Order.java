@@ -41,10 +41,6 @@ public class Order {
         this.status = status;
     }
 
-    public List<OrderItem> getOrderItems() {
-        return orderItems;
-    }
-
     public Client getClient() {
         return client;
     }
@@ -66,7 +62,6 @@ public class Order {
         for (OrderItem item : orderItems) {
             sum += item.subTotal();
         }
-
         return sum;
     }
 

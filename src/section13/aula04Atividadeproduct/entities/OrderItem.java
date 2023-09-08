@@ -3,7 +3,7 @@ package section13.aula04Atividadeproduct.entities;
 public class OrderItem {
     private Integer quantity;
     private Double price;
-    private Product product = new Product();
+    private Product product;
 
     public OrderItem() {
 
