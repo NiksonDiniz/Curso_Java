@@ -31,6 +31,14 @@ public class Program {
             System.out.println("Update!");
         }
 
+        /*
+            Classes e métodos final
+            Palavra chave: final
+            Classe: evita que a classe seja herdada
+            public final class SavingsAccount {
+            Método: evita que o método sob seja sobreposto
+         */
+
 
     }
 }

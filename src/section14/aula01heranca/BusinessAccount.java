@@ -21,7 +21,7 @@ public class BusinessAccount extends Account {
     }
 
     public void loan(double amount){
-        if(amount <= loanLimit)
-            balance += amount - 10.0;
+        super.withdraw(amount); // realiza o saque com a regra da super classe
+        balance -= 2.0; // adiciona um desconto de 2
     }
 }
