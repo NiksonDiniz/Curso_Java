@@ -1,4 +1,4 @@
-package section19.hasheequals;
+package section19.aula06hasheequals;
 
 import java.util.Objects;
 

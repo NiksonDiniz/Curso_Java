@@ -1,4 +1,4 @@
-package section19.hasheequals;
+package section19.aula06hasheequals;
 
 public class Program {
    public static void main(String[] args) {
